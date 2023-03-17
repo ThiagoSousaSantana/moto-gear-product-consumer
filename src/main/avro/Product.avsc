@@ -1,0 +1,26 @@
+{
+  "namespace": "br.com.motogear.productconsumer.entity",
+  "type": "record",
+  "name": "ProductDTO",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "type": "double"
+    },
+    {
+      "name": "imageUrls",
+      "type": {
+        "type": "array",
+        "items": "string"
+      }
+    }
+  ]
+}
