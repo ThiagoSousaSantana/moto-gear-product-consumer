@@ -1,7 +1,7 @@
 {
-  "namespace": "br.com.motogear.productconsumer.entity",
+  "namespace": "br.com.motogear.product",
   "type": "record",
-  "name": "ProductDTO",
+  "name": "ProductPost",
   "fields": [
     {
       "name": "name",
@@ -14,13 +14,6 @@
     {
       "name": "price",
       "type": "double"
-    },
-    {
-      "name": "imageUrls",
-      "type": {
-        "type": "array",
-        "items": "string"
-      }
     }
   ]
 }
