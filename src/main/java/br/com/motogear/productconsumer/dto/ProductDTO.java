@@ -1,9 +1,9 @@
-package br.com.motogear.productconsumer.entity;
+package br.com.motogear.productconsumer.dto;
 
 import java.math.BigDecimal;
 import java.util.List;
 
-public record Product(
+public record ProductDTO(
         String name,
         String description,
         BigDecimal price,

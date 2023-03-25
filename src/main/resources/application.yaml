@@ -11,3 +11,11 @@ spring:
         schema.registry.url: http://localhost:8081
         auto.registry.schema: true
         specific.avro.reader: true
+  data:
+    mongodb:
+      authentication-database: admin
+      username: root
+      password: root
+      host: localhost
+      port: 27017
+      database: motogear
